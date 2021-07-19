@@ -1,0 +1,399 @@
+		body{
+			margin: 0px;
+		}
+		.head{
+			min-height: 40px;
+			background: grey;
+			padding-left: 2%;
+			animation: headanimation;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			
+		}
+			.left{
+				width:30px;
+				height:35px;
+				padding-top: 5px;
+				border-radius: 20px 20px 15px 15px;
+				transition: height .5s, width .5s;
+			}
+			.left:hover{
+				height: 40px;
+				width: 40px;
+			}
+			#right{
+				float: right;
+				color: black;
+				font-family: cursive;
+				font-weight: bold;
+				font-size: 18px;
+				padding-top: 7px;
+				padding-right: 3%;
+			}
+			#right:hover{
+					color: white;
+					cursor: pointer;
+				}
+
+	@keyframes headanimation{
+		30%{background-image: linear-gradient(to left, green, red);}
+		60%{background-image: linear-gradient(to left, yellow, purple);}
+		90%{background-image: linear-gradient(to right, purple, white);}
+	}
+	/*-----------------Head section ends here---------------*/
+		#logoMenu{
+			min-height: 70px;
+			background: black;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			position: sticky;
+			top: 0;
+
+		}
+			#logoMenu img{
+				padding-left: 10px;
+				float: left;
+				width: 80px; 
+				height: 60px;
+				transition: height 1s, width 1s;
+			}
+					#logoMenu img:hover{
+						height: 80px;
+						width: 100px;
+						cursor: pointer;
+					}
+		
+			#logoMenu li{
+					display: inline;
+					min-height: 70px;
+					margin-right: 25px;	
+					
+				}
+				 #logoMenu li a{
+						color: white;
+						text-decoration: none;
+						font-weight: bold;
+						font-size: 22px;
+						font-family: cursive;
+						transition: all 0.3s linear;
+						
+					}
+					#logoMenu li a:hover{
+						font-size: 30px;
+						border-radius: 50%;
+						background-color: white;
+						color: blue;
+						cursor: pointer;
+						text-decoration: none;
+					}
+
+					.active{				
+						color: red !important;			/*see eg at menu bar. the active page menu will be red*/
+					}
+
+					#redirectpage a{
+						color: white;
+						font-style: italic;
+						text-decoration: none;
+					}
+
+	/*-------------------------Navigation Menu ends here------------------------------------*/
+		#bodytitle{
+			background: red;			
+		}
+		#bodytitle h1{
+			padding: 20px;
+			font-weight: bold;
+			font-family: serif;
+			font-size: 60px;
+			font-style:italic; 
+			text-align: center;
+		}
+		#body{
+			min-height: 100vh;
+			width: 98%;
+			padding-top: 10px;
+			margin: auto;
+		}
+		#lastsection{
+			background-color: white;
+			min-height: 500px;
+		}
+		#lastsection p{
+			background: black;
+			font-size: 50px;
+			padding: 10px;
+			color: white;
+			font-weight: bold;
+			font-family: cursive;
+			text-align: center;
+		}
+		#lsbody{
+			min-height: 100px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.heroestitle{
+			text-align: center;
+			font-weight: bold;
+			color: white;
+			background-color: black;
+			font-size: 20px;
+		}
+
+		.heroesbg{
+			background-color: ;
+
+		}
+
+		.videowidthheight
+		{
+			height: 350px;
+		}
+
+		#banner{
+			min-height: 600px;
+			text-align: center;
+			color: white;
+			font-size: 50px;
+			padding: 10px;
+			background: skyblue;
+		}
+/*Carousel*/
+.carousel {
+  min-height: 600px;
+  position: inherit;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  min-height: 600px;
+  position: inherit;
+}
+.carousel-inner > .item > img {
+  position: absolute ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*carousel ends*/
+
+
+
+		.input{
+			margin: 2%;
+			padding: 5px;
+			border-color: black;
+			border-radius: 5px;
+			width: 300px;
+		}
+		.biginput{
+			height: 80px;
+		}
+ 		fieldset{
+ 			margin: auto;
+ 			width: 400px;
+ 			border-radius: 50px 0px 50px 0px;
+ 			border-color: black;
+ 		}
+ 		fieldset h3{
+ 			border-color: black;
+ 			background: black;
+ 			color: white;
+ 			padding: 8px;
+ 			border-radius: 5px 50px 5px 50px;
+ 		}
+ 		#contactinfo{
+ 			background-image: url("hero/natalia.jpg");
+			background-position: center;
+			background-size: 100%;
+
+ 		}
+ 		#contactinfo th{
+ 			color: white;
+ 			font-size: 18px;
+ 		}
+
+		button{
+			background: black;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 10px;
+		}
+			button:hover{
+				cursor: pointer;
+				color: black;
+				background: green;
+				border-radius: 50%;
+
+			}
+/*reach us*/
+#quickcontact{
+	float: left;
+}
+#quickcontact .reachushead{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	width: 30%;
+}
+#quickcontact p{
+	font-style: italic;
+}
+#reachusinfo{
+	float: right;
+}
+
+			.img1{
+				width: 31%;
+				height: 150px;
+				margin: 1%;
+				float: left;
+				animation: animateimage;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+			}
+			.img2{
+				width: 14.2%;
+				height: 250px;
+				margin: 1%;
+				animation: animateimage;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+			}
+
+			@keyframes animateimage{
+	20%{border-radius: 80%;}
+	40%{border-radius: 70px 0px 0px 0px;}
+	60%{border-radius: 0px 70px 0px 0px;}
+	80%{border-radius: 0px 0px 70px 0px;}
+	100%{border-radius: 0px 0px 0px 70px;}
+}
+
+/*	whats new*/
+		#herohead{
+			text-align: center;
+			font-weight: bold;
+			font-size: 30px;
+			/*animation: heroname;
+			animation-duration: 15s;
+			animation-iteration-count: infinite;*/
+		}
+		/*@keyframes heroname{
+			30%{ content: "Alucard"; }
+			60%{ content: "Kagura"; }
+			90%{ content: "Gusion"; }
+		}*/
+		#newhero{
+			margin-top: 10px;
+			margin: auto;
+			height: 250px;
+			width: 150px;
+			background-image: url("hero/Lylia.jpg");
+			background-size: 100%;
+			animation: heroslide;
+			animation-duration: 15s;
+			animation-iteration-count: infinite;
+		}
+	@keyframes heroslide{
+		30%{color: yellow; background-image: url("hero/Alucard.jpg");}
+		60%{color: blue; background-image: url("hero/kagura.jpg");}
+		90%{color: black; background-image: url("hero/gusion.jpg");}
+	}
+		/*------------------body ends here----------------------*/
+		#footer{
+			min-height: 200px;
+			color: white;
+			padding: 1%;
+			background-image: linear-gradient(grey, black);
+			text-align: center;
+		}
+			#footer label{
+				font-size: 20px;
+				margin-right: 15px;
+
+			}
+			#footer a{
+				text-decoration: none;
+				color: white;
+				transition: all 0.3s linear;
+			}
+			#footer a:hover{
+				color: blue;
+				border-bottom: 1px solid white;
+				font-size: 25px;
+			}
+			#reachussm{
+				text-align: center;
+				font-size: 50px;
+				color: white;
+				background-color: black;
+			}
+			.reachusimg{
+				text-align: center ;
+				margin-bottom: 50px;
+			}
+			.reachusimg img{
+				height: 200px;
+				width: 200px;
+			}
+
+
+
+		/*	For Small Devices*/
+
+		@media screen and (min-width: 1px) and (max-width: 650px){
+			
+			#logoMenu img{
+				padding-left: 5px;
+				float: left;
+				width: 60px; 
+				height: 45px;
+			}
+		
+			#logoMenu .nav li{
+					display: inline;
+					min-height: 70px;
+					margin-right: 9px;
+				}
+			#logoMenu .nav li a{
+						color: white;
+						text-decoration: none;
+						font-weight: bold;
+						font-size: 13px;
+						font-family: cursive;
+					}
+		}
+
+		/*	For Medium Devices*/
+		@media screen and (min-width: 651px) and (max-width: 800px){
+			#logoMenu img{
+				padding-left: 8px;
+				float: left;
+				width: 70px; 
+				height: 50px;
+			}
+		
+			#logoMenu .nav li{
+					display: inline;
+					min-height: 70px;
+					margin-right: 15px;
+				}
+				 #logoMenu .nav li a{
+						color: white;
+						text-decoration: none;
+						font-weight: bold;
+						font-size: 18px;
+						font-family: cursive;
+					}

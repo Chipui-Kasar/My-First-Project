@@ -1,0 +1,685 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fa/css/all.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/custom.css">
+	<script src="dist/js/jquery.min.js"></script> 	<!-- developed by google -->
+	<script src="dist/js/bootstrap.js"></script>
+
+</head>
+<body>
+
+			 <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">		<!-- navbar-inverse i used to invert the color -->
+      <div class="container">
+        <div class="navbar-header">
+          <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            <li ><a href="home.html"><i class="fa fa-home"></i> Home</a></li>
+            <li ><a href="about.html"><i class="fa fa-users"></i> About</a></li>
+            <li><a href="contact.html"><i class="fa fa-map-marker"></i> Contact</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs"></i> Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Software.html">Software Services</a></li>
+                <li  class="active"><a href="jobs.html">Jobs & Employments</a></li>
+                <li><a href="marketing.html">Marketing Services</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-toggle="modal" data-target="#ulogin">
+           	<i class="fa fa-lock"></i> Log In
+        </a></li>
+            <li><a href="#" data-toggle="modal" data-target="#signup">
+           		<i class="fa fa-user-plus"></i> Sign Up
+        </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<!-- top nav ends -->
+
+		<!-- jpb search starts-->
+		<div class="container-fluid infoblock">
+			<div class="row">
+				<div class="col-md-8">
+					<h3 class="text-center">Search by Designation, title, company, location</h3>
+						<div class="row">
+							<div class="col-md-4">
+								<input type="text" class="form-control" name="">
+							</div>
+							<div class="col-md-4">
+								<input type="text" class="form-control" name="">
+							</div>
+							<div class="col-md-4">
+								<button class="btn btn-primary">Search</button>
+							</div>
+<br><br>
+							<div class="row text-center">
+								<div class="col-md-4">
+									<h4>Register Your Profile</h4>
+									<i class="fa fa-user-plus fa-4x"></i></div>
+								<div class="col-md-4">
+									<h4>Search unlimited Jobs</h4>
+									<i class="fa fa-search fa-4x"></i></div>
+								<div class="col-md-4">
+									<h4>Find Dream Job</h4>
+									<i class="fa fa-handshake fa-4x"></i></div>
+							</div>
+
+						</div>
+				</div> <!-- 8 ends here -->
+				<div class="col-md-4">
+					
+					<h3 class="text-center">Register Your Profile</h3>
+					<div class="form-group">
+						<label>Your Name</label>
+						<input type="text" class="form-control" name="">
+					</div>
+					<div class="form-group">
+						<label>Your Email</label>
+						<input type="text" class="form-control" name="">
+					</div>
+					<div class="text-center">
+						<button class="btn btn-primary">Register</button>
+						<hr>
+						<a href="#" data-toggle="modal" data-target="#ulogin"> I have Account</a>
+					</div>
+
+				</div>
+			</div> <!-- row ends -->
+		</div> <!-- container-flluid ends -->
+		<!-- jpb search ends-->
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h3 class="form-group">Filters <span class="shade">Applied(0)</span></h3>
+					<select class="form-control">
+						<option>Last 30 days</option>
+						<option>Last 15 Days </option>
+						<option>Last 3 Days </option>
+					</select>
+					<hr>
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Location<h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Bengaluru/ Bangalore (512)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Delhi (512)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Chennai (512)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Mumbai (512)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Pune (512)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Top Companies</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Premium Service(10)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name=""> Mphasis(17)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> IBM India (175)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Accenture (181)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Capgemini(263)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Industry</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> IT Software(10)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name=""> Recruitment/ Staffing(17)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Banking/ Financial (175)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Internet /E-commerce (181)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Media(263)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Salary</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> 0-3 Lakhs (100)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name=""> 3-6 (217)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> 6-10 (175)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> 10-15  (181)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> 15-25 (263)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Education</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> B. Tech /BE (1000)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name="">Any Graduate (21700)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Post Graduation (175)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+					
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Employer Type</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Company Jobs (14000)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name="">Consultant Job (2107)
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+
+
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Job Type</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> All Jobs 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"> 
+							<input type="checkbox" name=""> Premium Engg (56217)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> International (56175)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> Premium MBA  (181)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="checkbox" name=""> PSU/ Govt (20)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<b><a href="#"> View More</a></b>
+						</div>
+					</div>
+<br><br>
+				</div> <!-- 3 ends -->
+
+
+				<div class="col-md-7">
+					<h3 class="text-info"> 50000 Total Search Results -:</h3>
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-danger"><b>Java Developer - (0 to 5 years)</b></h4>
+							<em><i class="fa fa-map-marker"></i> Bangalore, India</em>
+							<p>
+								This is JD of above job title....................................................... 
+								Y'all motherfuckers ready or what?
+									Is y'all motherfuckers ready or what?
+									I don't think you are
+									I don't think so!
+									They got my back against the building
+									I'm the villian that's creeping around corners
+									Like shorty you see them niggas creeping around, warn us
+									We might be coming through, gunning through, running through
+									So be careful what you do
+									Or the slugs might come to you
+							</p>
+							<p>
+								<i class="fa fa-clock"></i> Posted on : 11/12/13  &nbsp; &nbsp;
+								<i class="fa fa-envelope"></i> Applied : 5k
+							</p>
+							<hr>
+						</div>
+					</div> <!-- job 1 ends -->
+
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-danger"><b>Ui Developer - (0 to 5 years)</b></h4>
+							<em><i class="fa fa-map-marker"></i> Bangalore, India</em>
+							<p>
+								This is JD of above job title....................................................... 
+								Y'all motherfuckers ready or what?
+									Is y'all motherfuckers ready or what?
+									I don't think you are
+									I don't think so!
+									They got my back against the building
+									I'm the villian that's creeping around corners
+									Like shorty you see them niggas creeping around, warn us
+									We might be coming through, gunning through, running through
+									So be careful what you do
+									Or the slugs might come to you
+							</p>
+							<p>
+								<i class="fa fa-clock"></i> Posted on : 11/12/13  &nbsp; &nbsp;
+								<i class="fa fa-envelope"></i> Applied : 5k
+							</p>
+							<hr>
+						</div>
+					</div> <!-- job 2 ends -->
+
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-danger"><b>Android Developer - (0 to 5 years)</b></h4>
+							<em><i class="fa fa-map-marker"></i> Bangalore, India</em>
+							<p>
+								This is JD of above job title....................................................... 
+								Y'all motherfuckers ready or what?
+									Is y'all motherfuckers ready or what?
+									I don't think you are
+									I don't think so!
+									They got my back against the building
+									I'm the villian that's creeping around corners
+									Like shorty you see them niggas creeping around, warn us
+									We might be coming through, gunning through, running through
+									So be careful what you do
+									Or the slugs might come to you
+							</p>
+							<p>
+								<i class="fa fa-clock"></i> Posted on : 11/12/13  &nbsp; &nbsp;
+								<i class="fa fa-envelope"></i> Applied : 5k
+							</p>
+							<hr>
+						</div>
+					</div> <!-- job 3 ends -->
+
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-danger"><b>PHP Developer - (0 to 5 years)</b></h4>
+							<em><i class="fa fa-map-marker"></i> Bangalore, India</em>
+							<p>
+								This is JD of above job title....................................................... 
+								Y'all motherfuckers ready or what?
+									Is y'all motherfuckers ready or what?
+									I don't think you are
+									I don't think so!
+									They got my back against the building
+									I'm the villian that's creeping around corners
+									Like shorty you see them niggas creeping around, warn us
+									We might be coming through, gunning through, running through
+									So be careful what you do
+									Or the slugs might come to you
+							</p>
+							<p>
+								<i class="fa fa-clock"></i> Posted on : 11/12/13  &nbsp; &nbsp;
+								<i class="fa fa-envelope"></i> Applied : 5k
+							</p>
+							<hr>
+						</div>
+					</div> <!-- job 4 ends -->
+
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-danger"><b>DBA Developer - (0 to 5 years)</b></h4>
+							<em><i class="fa fa-map-marker"></i> Bangalore, India</em>
+							<p>
+								This is JD of above job title....................................................... 
+								Y'all motherfuckers ready or what?
+									Is y'all motherfuckers ready or what?
+									I don't think you are
+									I don't think so!
+									They got my back against the building
+									I'm the villian that's creeping around corners
+									Like shorty you see them niggas creeping around, warn us
+									We might be coming through, gunning through, running through
+									So be careful what you do
+									Or the slugs might come to you
+							</p>
+							<p>
+								<i class="fa fa-clock"></i> Posted on : 11/12/13  &nbsp; &nbsp;
+								<i class="fa fa-envelope"></i> Applied : 5k
+							</p>
+							<hr>
+						</div>
+					</div> <!-- job 5 ends -->
+
+<div class="text-center">
+	<ul class="pagination">
+		<li class="active"><a href="">First</a></li>
+		<li><a href="">1</a></li>
+		<li><a href="">2</a></li>
+		<li><a href="">3</a></li>
+		<li><a href="">4</a></li>
+		<li><a href="">5</a></li>
+		<li><a href="">6</a></li>
+		<li><a href="">Last</a></li>
+	</ul>
+</div>
+
+				</div> <!-- 7 ends -->
+
+
+				<div class="col-md-2">
+					<h5>Includes 1992 jobs in Featured Companies</h5>
+					<div class="row form-group">
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive"></div>
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive"></div>
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive"></div>
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive"></div>
+						<div class="col-md-6">
+							<img src="com.jpg" class="img-responsive">
+						</div>
+					</div>
+<br><br>
+
+					<h4>Career Services</h4>
+					<hr>
+					<p class="text-info">
+						Applying to jobs but not getting calls?
+					</p>
+					<p>Get visual Resume to impress recruiter in 6 sec</p>
+<br>
+					<div class="row">
+						<div class="col-md-12">
+							<button class="btn btn-info btn-block" >Get Visual Resume</button>
+						</div>
+					</div>
+
+	<br><br>
+					<div class="row form-group">
+						<div class="col-md-12">
+							<input type="text" name="" class="form-control" placeholder="Enter Email">
+						</div>
+					</div>
+
+					<div class="row form-group">
+						<div class="col-md-12">
+							<input type="password" name="" class="form-control" placeholder="Create Password">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h6>I agree to <span class="spancolor">terms and conditions</span></h6>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<button class="btn btn-danger btn-block" >Register Now</button>
+						</div>
+					</div>
+				</div> <!-- 2 ends -->
+			</div>
+		</div> <!-- container ends -->
+
+<!-- Footer start -->
+	<div class="container-fluid">
+		<div class="row footer text-center">
+			<div class="col-md-6">
+				<h4 class="footertitle">Our Address</h4>
+				<p>
+					<i class="fa fa-map-marker"></i>
+					#123, Abc, Godown........<br>
+					Your Address will come here
+				</p>
+				<p>
+					<i class="fa fa-envelope "></i> : contact@abc.com
+				</p>
+				<p>
+					<i class="fa fa-mobile "></i> : 568786589653
+				</p>
+				<p>
+					<i class="fa fa-phone "></i> : +91-5698568965
+				</p>
+			</div>
+
+			<div class="col-md-6">
+				<h4 class="footertitle">Follow Us</h4>
+				<p>
+					Not only do I leave you I hide You
+									I before you
+									X and Ja-Rule
+									Death before dishonor now and prior to
+									Boss man spy on you
+									Conspire you
+									Me die before you?
+									You liar, you
+										Conspire you
+									Me die before you?
+				</p>
+					<i class="fab fa-facebook fa-3x"></i>
+					<i class="fab fa-twitter fa-3x"></i>
+					<i class="fab fa-instagram fa-3x"></i>
+					<i class="fab fa-linkedin fa-3x"></i>
+				
+					<i class="fab fa-google fa-3x"></i>
+				
+			</div>
+		</div>
+	</div>
+<!-- Footer ends -->
+
+	<!-- Modal -->
+		<div class="modal fade" id="ulogin" tabindex="-1"  data-backdrop="static" data-keyboard="false">	<!-- modal fade hides the pop up msg --><!--  data-backdrop="static , keyboard: inorder not to close the dialog in the user click outside the dialog/ keyboard" -->
+		  <div class="modal-dialog modal-sm" >
+		    <div class="modal-content">
+
+		      <div class="modal-header bg-danger">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">User Log In</h4>
+		      </div>
+		      <div class="modal-body">
+		       		<div class="form-group">
+		       			<label>Username</label>
+		       			<input type="text" name="" class="form-control">
+		       			<label>Password</label>
+		       			<input type="password" name="" class="form-control">
+		       		</div>
+		      </div>
+
+		      <div class="modal-footer">
+		   
+		        <button type="button" class="btn btn-primary" >Log In</button>
+		         <hr>
+		         <div class="text-center">
+		        <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signup">Sign Up</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- login modal  end-->
+
+	<!--signup start-->
+		<!-- Modal -->
+		<div class="modal fade" id="signup" tabindex="-1"  data-backdrop="static" data-keyboard="false">	<!-- modal fade hides the pop up msg --><!--  data-backdrop="static , keyboard: inorder not to close the dialog in the user click outside the dialog/ keyboard" -->
+		  <div class="modal-dialog modal-sm" >
+		    <div class="modal-content">
+
+		      <div class="modal-header bg-info">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">User Sign Up</h4>
+		      </div>
+		      <div class="modal-body">
+		       		<div class="form-group">
+		       			<label>Name</label>
+		       			<input type="text" name="" class="form-control">
+		       			<label>Email</label>
+		       			<input type="email" name="" class="form-control">
+		       			<label>Password</label>
+		       			<input type="email" name="" class="form-control">
+		       			<label>Confirm Password</label>
+		       			<input type="email" name="" class="form-control">
+		       		</div>
+		      </div>
+
+		      <div class="modal-footer">
+		   <div class="text-center">
+		        <button type="button" class="btn btn-success" >Register</button>
+		        <hr>
+
+		        <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#ulogin">Log In</a>
+			</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	<!--signup end-->
+
+</body>
+</html>

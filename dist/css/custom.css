@@ -1,0 +1,43 @@
+.infoblock{
+	background-image: linear-gradient(to right, blue, white);
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.twocolumn{
+	columns: 2;
+}
+
+@keyframes iconanimate{
+	40%{color: black ;}
+	70%{color: grey ;}
+}
+
+.animated{
+	animation: iconanimate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+
+.footer{
+    min-height: 180px;
+    padding-top: 20px;
+    color: white;
+    background-image: linear-gradient(blue, black);
+}
+.footertitle{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+body{
+	padding-right: 0px !important;
+	margin-right: 0px !important;
+	padding-top: 51px !important	;
+}
+body.modal-open{
+	overflow: auto;
+}
